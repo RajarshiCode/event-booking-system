@@ -2,9 +2,8 @@ package user;
 
 public class Attendee extends User{
 
-	Attendee(String id, String name) {
-		super(id, name);
-		// TODO Auto-generated constructor stub
+	public Attendee(String id, String name) {
+		super(id, name);		
 	}
 
 	@Override

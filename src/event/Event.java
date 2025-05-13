@@ -14,4 +14,18 @@ public class Event {
 	public void setAvailableTickets(int n) {
 		availableTickets = n;
 	}
+	
+	
+	public void display() {
+		System.out.println("Event title : "+title+", no of tickets: "+availableTickets);
+	}
+
+	public String getTitel() {		
+		return title;
+	}
+
+	public int getAvailableTickets() {
+		// TODO Auto-generated method stub
+		return availableTickets;
+	}
 }

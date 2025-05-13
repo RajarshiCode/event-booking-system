@@ -8,13 +8,15 @@ public class Ticket {
 	 protected String status;
 	 
 	 
-	 public Ticket() {
+	 public Ticket(Attendee attendee, Event event) {
+		 this.attendee = attendee;
+		 this.event = event;
 		status = "Booked";
 	}
 	 
 	 void cancel() {
 		 event.availableTickets = event.availableTickets+1;
-		 status = "";
+		 status = "canceled";
 	 }
 	 
 	 String getStatus() {

@@ -1,10 +1,10 @@
 package user;
 
 public abstract class User {
-	protected String id;
-	protected String name;
+	public String id;
+	public String name;
 	
-	User(String id, String name){
+	public User(String id, String name){
 		this.id = id;
 		this.name = name;
 	}

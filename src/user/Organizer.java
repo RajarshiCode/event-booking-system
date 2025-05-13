@@ -3,7 +3,7 @@ package user;
 public class Organizer extends User{
 	
 	protected boolean active;
-	Organizer(String id, String name, boolean active) {
+	public Organizer(String id, String name) {
 		super(id, name);
 		this.active = true;
 	}
