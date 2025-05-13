@@ -1,8 +1,8 @@
 package event;
 
 public class Event {
-	protected String title;
-	protected int availableTickets;
+	public String title;
+	public int availableTickets;
 	public Event(String title, int availableTickets) {		
 		this.title = title;
 		this.availableTickets = availableTickets;
